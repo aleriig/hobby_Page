@@ -1,0 +1,47 @@
+div h1 {
+    color: var(--main-green);
+}
+
+div h1 span {
+    color: var(--main-blue);
+}
+
+
+div .title {
+    display: flex;
+    flex-direction: row;
+    /* space around for put the title in the middle */
+    justify-content: space-around;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav li {
+    /* padding to colocate navbar top-right */
+    padding-right: 20px;
+    padding-bottom: 90px;
+}
+
+.header-images img {
+    /* adjusting size image */
+    max-width: 100%;
+    display: block;
+    /* removing space between pictures */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.logo img{
+    width: 128px;
+    height: 136px;
+}
+
+#header-img {
+    position: sticky;
+}
