@@ -1,0 +1,17 @@
+.footer .h2o-farm {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.footer .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    /* adding space between icons */
+    gap: 70px;
+    
+}

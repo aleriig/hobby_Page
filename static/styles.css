@@ -8,6 +8,14 @@ a {
     color: black;
 }
 
+footer {
+    margin: 0;
+    position: absolute;
+    width: 1425px;
+    height: 243px;
+    background-color: var(--secondary-green);
+}
+
 h1 {
     font-family: 'Rowdies', Arial, sans-serif;
     font-weight: bold;
