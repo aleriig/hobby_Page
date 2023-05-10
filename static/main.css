@@ -48,6 +48,116 @@ section ul {
     padding: 10px 0;
 }
 
+.container {
+    display: grid;
+    justify-content: center;
+    /* colocating different columns */
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 600px 600px;
+    row-gap: 50px;
+    column-gap: 1px;
+}
+
+.explain-image {
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.explain-image p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.explain-image img {
+    /* adjusting image */
+    max-width: 50%;
+    max-height: 50%;
+    /* centering image inside the div */
+    padding: 40px 120px;
+}
+
+.hydro-types .title-left {
+    max-width: 650px;
+    height: 74.91px;
+    color: white;
+    background-color: var(--main-blue);
+    border-radius: 15px;
+    /* centering text inside the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hydro-types .title-right {
+    max-width: 650px;
+    height: 74.91px;
+    color: white;
+    background-color: var(--main-green);
+    border-radius: 15px;
+    /* centering text inside the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hydro-types {
+    width: 580px;
+    height: 630px;
+    /* giving radius to the border */
+    border-radius: 15px;
+    /* margin: 30px 25px; */
+    padding: 10px;
+} 
+
+
+.pros-cons {
+    background-color:  var(--secondary-blue);
+    height: 130px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+    /* margin: 5px; */
+}
+
+.pros-cons li {
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    list-style-type: disc;
+    /* giving some vertically space between lists */
+    line-height: 20px;
+}
+
+.pros-cons p {
+    width: 40px;
+    height: 25px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding: 0;
+}
+
+.pros-cons ul {
+    margin-top: 20px;
+    /* giving some horizontally space between lists  */
+    max-width: 240px;
+}
+
+.wiki-link {
+    margin: 5px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
 #history {
     margin: 20px;
 }
