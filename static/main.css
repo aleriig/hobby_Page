@@ -18,15 +18,6 @@ section ul {
     padding-bottom: 20px;
 }
 
-.header-images img {
-    /* adjusting size image */
-    max-width: 100%;
-    display: block;
-    /* removing space between pictures */
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
 .title-history {
     color: var(--main-blue);
     padding: 20px;
