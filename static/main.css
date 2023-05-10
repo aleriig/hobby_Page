@@ -38,6 +38,16 @@ section ul {
     padding: 10px 0;
 }
 
+.arrow-down-types {
+    color: var(--main-blue);
+    /* changing size */
+    font-size: 60px;
+    /* putting the arrow in the center */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
 #history {
     margin: 20px;
 }
