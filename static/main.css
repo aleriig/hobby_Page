@@ -158,6 +158,11 @@ section ul {
     font-size: 25px;
 }
 
+#hydroponic-link {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
 #history {
     margin: 20px;
 }

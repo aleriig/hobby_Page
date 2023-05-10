@@ -6,14 +6,12 @@ div h1 span {
     color: var(--main-blue);
 }
 
-
 div .title {
     display: flex;
     flex-direction: row;
     /* space around for put the title in the middle */
     justify-content: space-around;
 }
-
 
 nav ul {
     display: flex;
