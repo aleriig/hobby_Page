@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Rowdies', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h4 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li {
+    font-family: 'Rowdies', Arial, sans-serif;
+    color: black;
+    /* removing list dots */
+    list-style: none;
+}
