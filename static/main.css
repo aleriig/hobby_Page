@@ -1,0 +1,32 @@
+.header-images img {
+    /* adjusting size image */
+    max-width: 100%;
+    display: block;
+    /* removing space between pictures */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.title-history {
+    color: var(--main-blue);
+    padding: 20px;
+}
+
+.title-types {
+    color: var(--main-blue);
+    padding: 20px;
+}
+
+.arrow-down-history {
+    color: var(--main-green);
+    /* changing size */
+    font-size: 60px;
+    /* putting the arrow in the center */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#history {
+    margin: 20px;
+}
