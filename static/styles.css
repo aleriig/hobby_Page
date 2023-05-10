@@ -42,3 +42,26 @@ li {
     /* removing list dots */
     list-style: none;
 }
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    max-width: 1200px;
+    padding:35px;
+    /* display: flex;
+    justify-content: center; */
+    margin: 0;
+}
+
+section {
+    position: relative;
+    /* width: 1287px; */
+    display: block;
+}
+
+
+ul {
+    max-width: 1000px;
+    list-style-type: circle;
+}
